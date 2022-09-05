@@ -16,11 +16,12 @@
     <RepositoryType>git</RepositoryType>
 
     <SignAssembly>true</SignAssembly>
+    <!--
     <AssemblyOriginatorKeyFile>$(SolutionDir)\DelegateDecompiler.snk</AssemblyOriginatorKeyFile>
-
+    -->
     <FileVersion>$(Version)</FileVersion>
   </PropertyGroup>
-  
+
   <ItemGroup>
     <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0" PrivateAssets="All" />
   </ItemGroup>
